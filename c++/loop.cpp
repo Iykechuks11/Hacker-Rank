@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // Complete the code.
-    string num[] = {"one", "two", "three", "four"};
+    string num[] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
     string start;
     string end;
