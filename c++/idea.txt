@@ -1,0 +1,29 @@
+==== input ====
+2 2
+n = 2 (means we have an array with two arrays), 
+
+a = {{a, w}, {e, q}}
+
+and q = 2 
+This means that you would perform 2 tasks
+
+n = 2; q = 2 (a[0], a[1] each containing (i, j), for example, i (position of a[0], and j (position of index in a[0])))
+
+
+
+  if (argc != 0) {
+    cout << "== input sample ==" << endl;
+    cout << "\t\t2 2" << endl;
+    cout << "\t\t3 1 5 4" << endl;
+    cout << "\t\t5 1 2 8 9 3" << endl;
+    cout << "\t\t0 1" << endl;
+    cout << "\t\t1 3" << endl;
+    cout << "== explanation ==" << endl;
+    cout << "the first line represents n, and q " << endl;
+    cout << "n: `a` number of arrays." << endl;
+    cout << "q: you perform q task/queries." << endl;
+    cout << "== line 2 - 3 ==" << endl;
+    cout << "3, and 5 represent the lengths, while (1, 5, 4) and (1, 2, ... 3) elements." << endl;
+    cout << "== line 4 - 5 ==" << endl;
+    cout << "0 represent the first array in n, and 1, a[1] of that array. (same concept with the last line) " << endl;
+  }
